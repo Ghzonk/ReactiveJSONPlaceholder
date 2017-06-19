@@ -38,8 +38,6 @@
 		D00E78AC1EF8177900351037 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78AB1EF8177900351037 /* DetailViewModel.swift */; };
 		D00E78AF1EF8384000351037 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78AD1EF8384000351037 /* Nimble.framework */; };
 		D00E78B01EF8384000351037 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78AE1EF8384000351037 /* Quick.framework */; };
-		D00E78B31EF8389100351037 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D00E78B21EF8389100351037 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D00E78B51EF8389F00351037 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D00E78B41EF8389F00351037 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D00E78B81EF839E500351037 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78B71EF839E500351037 /* ModelTests.swift */; };
 		D00E78B91EF83D7A00351037 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78771EF78E7A00351037 /* ReactiveCocoa.framework */; };
 		D00E78BA1EF83D7A00351037 /* ReactiveJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78781EF78E7A00351037 /* ReactiveJSON.framework */; };
@@ -71,8 +69,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D00E78B31EF8389100351037 /* Nimble.framework in CopyFiles */,
-				D00E78B51EF8389F00351037 /* Quick.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +112,6 @@
 		D00E78AB1EF8177900351037 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		D00E78AD1EF8384000351037 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		D00E78AE1EF8384000351037 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		D00E78B21EF8389100351037 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		D00E78B41EF8389F00351037 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		D00E78B71EF839E500351037 /* ModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,8 +153,6 @@
 		D00E783A1EF78D9600351037 = {
 			isa = PBXGroup;
 			children = (
-				D00E78B41EF8389F00351037 /* Quick.framework */,
-				D00E78B21EF8389100351037 /* Nimble.framework */,
 				D00E78451EF78D9600351037 /* ReactiveJSONPlaceholder */,
 				D00E785C1EF78D9600351037 /* ReactiveJSONPlaceholderTests */,
 				D00E78671EF78D9600351037 /* ReactiveJSONPlaceholderUITests */,
