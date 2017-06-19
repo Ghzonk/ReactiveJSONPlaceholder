@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00E78471EF78D9600351037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78461EF78D9600351037 /* AppDelegate.swift */; };
+		D00E784E1EF78D9600351037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00E784C1EF78D9600351037 /* Main.storyboard */; };
+		D00E78501EF78D9600351037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00E784F1EF78D9600351037 /* Assets.xcassets */; };
+		D00E78531EF78D9600351037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00E78511EF78D9600351037 /* LaunchScreen.storyboard */; };
+		D00E785E1EF78D9600351037 /* ReactiveJSONPlaceholderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E785D1EF78D9600351037 /* ReactiveJSONPlaceholderTests.swift */; };
+		D00E78691EF78D9600351037 /* ReactiveJSONPlaceholderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78681EF78D9600351037 /* ReactiveJSONPlaceholderUITests.swift */; };
+		D00E787B1EF78E7A00351037 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78771EF78E7A00351037 /* ReactiveCocoa.framework */; };
+		D00E787C1EF78E7A00351037 /* ReactiveJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78781EF78E7A00351037 /* ReactiveJSON.framework */; };
+		D00E787D1EF78E7A00351037 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78791EF78E7A00351037 /* ReactiveSwift.framework */; };
+		D00E787E1EF78E7A00351037 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E787A1EF78E7A00351037 /* Result.framework */; };
+		D00E78841EF799AA00351037 /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78831EF799AA00351037 /* PostTableViewController.swift */; };
+		D00E78861EF79E3000351037 /* PostTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78851EF79E3000351037 /* PostTableCell.swift */; };
+		D00E78881EF79E5A00351037 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78871EF79E5A00351037 /* PostModel.swift */; };
+		D00E788A1EF79F8D00351037 /* PostCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78891EF79F8D00351037 /* PostCellViewModel.swift */; };
+		D00E788C1EF7A08000351037 /* PostTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E788B1EF7A08000351037 /* PostTableViewModel.swift */; };
+		D00E788E1EF7A0EE00351037 /* JSONPlaceholderServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E788D1EF7A0EE00351037 /* JSONPlaceholderServices.swift */; };
+		D00E78901EF7A86200351037 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E788F1EF7A86200351037 /* CommentTableViewController.swift */; };
+		D00E78921EF7A95000351037 /* CommentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78911EF7A95000351037 /* CommentTableCell.swift */; };
+		D00E78941EF7A96C00351037 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78931EF7A96C00351037 /* CommentModel.swift */; };
+		D00E78961EF7A9F900351037 /* CommentCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78951EF7A9F900351037 /* CommentCellViewModel.swift */; };
+		D00E78981EF7AA2200351037 /* CommentTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78971EF7AA2200351037 /* CommentTableViewModel.swift */; };
+		D00E789A1EF7B21900351037 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78991EF7B21900351037 /* FirstViewController.swift */; };
+		D00E789C1EF7B3FC00351037 /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E789B1EF7B3FC00351037 /* ToDoModel.swift */; };
+		D00E789E1EF7B46700351037 /* ToDoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E789D1EF7B46700351037 /* ToDoCellViewModel.swift */; };
+		D00E78A01EF7B59700351037 /* ToDoTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E789F1EF7B59700351037 /* ToDoTableViewModel.swift */; };
+		D00E78A21EF7B66200351037 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78A11EF7B66200351037 /* ToDoTableViewController.swift */; };
+		D00E78A41EF7B74500351037 /* ToDoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78A31EF7B74500351037 /* ToDoTableCell.swift */; };
+		D00E78A61EF80A5C00351037 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78A51EF80A5C00351037 /* DetailViewController.swift */; };
+		D00E78AC1EF8177900351037 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78AB1EF8177900351037 /* DetailViewModel.swift */; };
+		D00E78AF1EF8384000351037 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78AD1EF8384000351037 /* Nimble.framework */; };
+		D00E78B01EF8384000351037 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78AE1EF8384000351037 /* Quick.framework */; };
+		D00E78B31EF8389100351037 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D00E78B21EF8389100351037 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D00E78B51EF8389F00351037 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D00E78B41EF8389F00351037 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D00E78B81EF839E500351037 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E78B71EF839E500351037 /* ModelTests.swift */; };
+		D00E78B91EF83D7A00351037 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78771EF78E7A00351037 /* ReactiveCocoa.framework */; };
+		D00E78BA1EF83D7A00351037 /* ReactiveJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78781EF78E7A00351037 /* ReactiveJSON.framework */; };
+		D00E78BB1EF83D7A00351037 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E78791EF78E7A00351037 /* ReactiveSwift.framework */; };
+		D00E78BC1EF83D7A00351037 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00E787A1EF78E7A00351037 /* Result.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D00E785A1EF78D9600351037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00E783B1EF78D9600351037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00E78421EF78D9600351037;
+			remoteInfo = ReactiveJSONPlaceholder;
+		};
+		D00E78651EF78D9600351037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D00E783B1EF78D9600351037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D00E78421EF78D9600351037;
+			remoteInfo = ReactiveJSONPlaceholder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D00E78B11EF8385400351037 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D00E78B31EF8389100351037 /* Nimble.framework in CopyFiles */,
+				D00E78B51EF8389F00351037 /* Quick.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D00E78431EF78D9600351037 /* ReactiveJSONPlaceholder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveJSONPlaceholder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00E78461EF78D9600351037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D00E784D1EF78D9600351037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00E784F1EF78D9600351037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00E78521EF78D9600351037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D00E78541EF78D9600351037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00E78591EF78D9600351037 /* ReactiveJSONPlaceholderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveJSONPlaceholderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00E785D1EF78D9600351037 /* ReactiveJSONPlaceholderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveJSONPlaceholderTests.swift; sourceTree = "<group>"; };
+		D00E785F1EF78D9600351037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00E78641EF78D9600351037 /* ReactiveJSONPlaceholderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveJSONPlaceholderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00E78681EF78D9600351037 /* ReactiveJSONPlaceholderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveJSONPlaceholderUITests.swift; sourceTree = "<group>"; };
+		D00E786A1EF78D9600351037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00E78771EF78E7A00351037 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		D00E78781EF78E7A00351037 /* ReactiveJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveJSON.framework; path = Carthage/Build/iOS/ReactiveJSON.framework; sourceTree = "<group>"; };
+		D00E78791EF78E7A00351037 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		D00E787A1EF78E7A00351037 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		D00E78831EF799AA00351037 /* PostTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		D00E78851EF79E3000351037 /* PostTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableCell.swift; sourceTree = "<group>"; };
+		D00E78871EF79E5A00351037 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		D00E78891EF79F8D00351037 /* PostCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCellViewModel.swift; sourceTree = "<group>"; };
+		D00E788B1EF7A08000351037 /* PostTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewModel.swift; sourceTree = "<group>"; };
+		D00E788D1EF7A0EE00351037 /* JSONPlaceholderServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONPlaceholderServices.swift; sourceTree = "<group>"; };
+		D00E788F1EF7A86200351037 /* CommentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		D00E78911EF7A95000351037 /* CommentTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableCell.swift; sourceTree = "<group>"; };
+		D00E78931EF7A96C00351037 /* CommentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		D00E78951EF7A9F900351037 /* CommentCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCellViewModel.swift; sourceTree = "<group>"; };
+		D00E78971EF7AA2200351037 /* CommentTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewModel.swift; sourceTree = "<group>"; };
+		D00E78991EF7B21900351037 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D00E789B1EF7B3FC00351037 /* ToDoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
+		D00E789D1EF7B46700351037 /* ToDoCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoCellViewModel.swift; sourceTree = "<group>"; };
+		D00E789F1EF7B59700351037 /* ToDoTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewModel.swift; sourceTree = "<group>"; };
+		D00E78A11EF7B66200351037 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		D00E78A31EF7B74500351037 /* ToDoTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableCell.swift; sourceTree = "<group>"; };
+		D00E78A51EF80A5C00351037 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D00E78AB1EF8177900351037 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		D00E78AD1EF8384000351037 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		D00E78AE1EF8384000351037 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		D00E78B21EF8389100351037 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		D00E78B41EF8389F00351037 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		D00E78B71EF839E500351037 /* ModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00E78401EF78D9600351037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E787B1EF78E7A00351037 /* ReactiveCocoa.framework in Frameworks */,
+				D00E787C1EF78E7A00351037 /* ReactiveJSON.framework in Frameworks */,
+				D00E787D1EF78E7A00351037 /* ReactiveSwift.framework in Frameworks */,
+				D00E787E1EF78E7A00351037 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E78561EF78D9600351037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E78AF1EF8384000351037 /* Nimble.framework in Frameworks */,
+				D00E78B01EF8384000351037 /* Quick.framework in Frameworks */,
+				D00E78B91EF83D7A00351037 /* ReactiveCocoa.framework in Frameworks */,
+				D00E78BA1EF83D7A00351037 /* ReactiveJSON.framework in Frameworks */,
+				D00E78BB1EF83D7A00351037 /* ReactiveSwift.framework in Frameworks */,
+				D00E78BC1EF83D7A00351037 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E78611EF78D9600351037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00E783A1EF78D9600351037 = {
+			isa = PBXGroup;
+			children = (
+				D00E78B41EF8389F00351037 /* Quick.framework */,
+				D00E78B21EF8389100351037 /* Nimble.framework */,
+				D00E78451EF78D9600351037 /* ReactiveJSONPlaceholder */,
+				D00E785C1EF78D9600351037 /* ReactiveJSONPlaceholderTests */,
+				D00E78671EF78D9600351037 /* ReactiveJSONPlaceholderUITests */,
+				D00E78441EF78D9600351037 /* Products */,
+				D00E78761EF78E7A00351037 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D00E78441EF78D9600351037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78431EF78D9600351037 /* ReactiveJSONPlaceholder.app */,
+				D00E78591EF78D9600351037 /* ReactiveJSONPlaceholderTests.xctest */,
+				D00E78641EF78D9600351037 /* ReactiveJSONPlaceholderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00E78451EF78D9600351037 /* ReactiveJSONPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78801EF78F0100351037 /* Model */,
+				D00E78811EF78F0700351037 /* View */,
+				D00E78821EF78F0E00351037 /* ViewModel */,
+				D00E78461EF78D9600351037 /* AppDelegate.swift */,
+				D00E78991EF7B21900351037 /* FirstViewController.swift */,
+				D00E784C1EF78D9600351037 /* Main.storyboard */,
+				D00E784F1EF78D9600351037 /* Assets.xcassets */,
+				D00E78511EF78D9600351037 /* LaunchScreen.storyboard */,
+				D00E78541EF78D9600351037 /* Info.plist */,
+			);
+			path = ReactiveJSONPlaceholder;
+			sourceTree = "<group>";
+		};
+		D00E785C1EF78D9600351037 /* ReactiveJSONPlaceholderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78B61EF839A500351037 /* ModelTests */,
+				D00E785D1EF78D9600351037 /* ReactiveJSONPlaceholderTests.swift */,
+				D00E785F1EF78D9600351037 /* Info.plist */,
+			);
+			path = ReactiveJSONPlaceholderTests;
+			sourceTree = "<group>";
+		};
+		D00E78671EF78D9600351037 /* ReactiveJSONPlaceholderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78681EF78D9600351037 /* ReactiveJSONPlaceholderUITests.swift */,
+				D00E786A1EF78D9600351037 /* Info.plist */,
+			);
+			path = ReactiveJSONPlaceholderUITests;
+			sourceTree = "<group>";
+		};
+		D00E78761EF78E7A00351037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78AD1EF8384000351037 /* Nimble.framework */,
+				D00E78AE1EF8384000351037 /* Quick.framework */,
+				D00E78771EF78E7A00351037 /* ReactiveCocoa.framework */,
+				D00E78781EF78E7A00351037 /* ReactiveJSON.framework */,
+				D00E78791EF78E7A00351037 /* ReactiveSwift.framework */,
+				D00E787A1EF78E7A00351037 /* Result.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D00E78801EF78F0100351037 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D00E788D1EF7A0EE00351037 /* JSONPlaceholderServices.swift */,
+				D00E78871EF79E5A00351037 /* PostModel.swift */,
+				D00E78931EF7A96C00351037 /* CommentModel.swift */,
+				D00E789B1EF7B3FC00351037 /* ToDoModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D00E78811EF78F0700351037 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78851EF79E3000351037 /* PostTableCell.swift */,
+				D00E78831EF799AA00351037 /* PostTableViewController.swift */,
+				D00E78911EF7A95000351037 /* CommentTableCell.swift */,
+				D00E788F1EF7A86200351037 /* CommentTableViewController.swift */,
+				D00E78A31EF7B74500351037 /* ToDoTableCell.swift */,
+				D00E78A11EF7B66200351037 /* ToDoTableViewController.swift */,
+				D00E78A51EF80A5C00351037 /* DetailViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D00E78821EF78F0E00351037 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78891EF79F8D00351037 /* PostCellViewModel.swift */,
+				D00E788B1EF7A08000351037 /* PostTableViewModel.swift */,
+				D00E78951EF7A9F900351037 /* CommentCellViewModel.swift */,
+				D00E78971EF7AA2200351037 /* CommentTableViewModel.swift */,
+				D00E789D1EF7B46700351037 /* ToDoCellViewModel.swift */,
+				D00E789F1EF7B59700351037 /* ToDoTableViewModel.swift */,
+				D00E78AB1EF8177900351037 /* DetailViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		D00E78B61EF839A500351037 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D00E78B71EF839E500351037 /* ModelTests.swift */,
+			);
+			name = ModelTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00E78421EF78D9600351037 /* ReactiveJSONPlaceholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00E786D1EF78D9600351037 /* Build configuration list for PBXNativeTarget "ReactiveJSONPlaceholder" */;
+			buildPhases = (
+				D00E783F1EF78D9600351037 /* Sources */,
+				D00E78401EF78D9600351037 /* Frameworks */,
+				D00E78411EF78D9600351037 /* Resources */,
+				D00E787F1EF78E9100351037 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveJSONPlaceholder;
+			productName = ReactiveJSONPlaceholder;
+			productReference = D00E78431EF78D9600351037 /* ReactiveJSONPlaceholder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D00E78581EF78D9600351037 /* ReactiveJSONPlaceholderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00E78701EF78D9600351037 /* Build configuration list for PBXNativeTarget "ReactiveJSONPlaceholderTests" */;
+			buildPhases = (
+				D00E78551EF78D9600351037 /* Sources */,
+				D00E78561EF78D9600351037 /* Frameworks */,
+				D00E78571EF78D9600351037 /* Resources */,
+				D00E78B11EF8385400351037 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00E785B1EF78D9600351037 /* PBXTargetDependency */,
+			);
+			name = ReactiveJSONPlaceholderTests;
+			productName = ReactiveJSONPlaceholderTests;
+			productReference = D00E78591EF78D9600351037 /* ReactiveJSONPlaceholderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D00E78631EF78D9600351037 /* ReactiveJSONPlaceholderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00E78731EF78D9600351037 /* Build configuration list for PBXNativeTarget "ReactiveJSONPlaceholderUITests" */;
+			buildPhases = (
+				D00E78601EF78D9600351037 /* Sources */,
+				D00E78611EF78D9600351037 /* Frameworks */,
+				D00E78621EF78D9600351037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00E78661EF78D9600351037 /* PBXTargetDependency */,
+			);
+			name = ReactiveJSONPlaceholderUITests;
+			productName = ReactiveJSONPlaceholderUITests;
+			productReference = D00E78641EF78D9600351037 /* ReactiveJSONPlaceholderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00E783B1EF78D9600351037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Justin Hur";
+				TargetAttributes = {
+					D00E78421EF78D9600351037 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D00E78581EF78D9600351037 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D00E78421EF78D9600351037;
+					};
+					D00E78631EF78D9600351037 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D00E78421EF78D9600351037;
+					};
+				};
+			};
+			buildConfigurationList = D00E783E1EF78D9600351037 /* Build configuration list for PBXProject "ReactiveJSONPlaceholder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00E783A1EF78D9600351037;
+			productRefGroup = D00E78441EF78D9600351037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00E78421EF78D9600351037 /* ReactiveJSONPlaceholder */,
+				D00E78581EF78D9600351037 /* ReactiveJSONPlaceholderTests */,
+				D00E78631EF78D9600351037 /* ReactiveJSONPlaceholderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00E78411EF78D9600351037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E78531EF78D9600351037 /* LaunchScreen.storyboard in Resources */,
+				D00E78501EF78D9600351037 /* Assets.xcassets in Resources */,
+				D00E784E1EF78D9600351037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E78571EF78D9600351037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E78621EF78D9600351037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D00E787F1EF78E9100351037 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00E783F1EF78D9600351037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E78901EF7A86200351037 /* CommentTableViewController.swift in Sources */,
+				D00E789E1EF7B46700351037 /* ToDoCellViewModel.swift in Sources */,
+				D00E78861EF79E3000351037 /* PostTableCell.swift in Sources */,
+				D00E78881EF79E5A00351037 /* PostModel.swift in Sources */,
+				D00E788E1EF7A0EE00351037 /* JSONPlaceholderServices.swift in Sources */,
+				D00E78A21EF7B66200351037 /* ToDoTableViewController.swift in Sources */,
+				D00E78A41EF7B74500351037 /* ToDoTableCell.swift in Sources */,
+				D00E78961EF7A9F900351037 /* CommentCellViewModel.swift in Sources */,
+				D00E789A1EF7B21900351037 /* FirstViewController.swift in Sources */,
+				D00E78841EF799AA00351037 /* PostTableViewController.swift in Sources */,
+				D00E78A61EF80A5C00351037 /* DetailViewController.swift in Sources */,
+				D00E789C1EF7B3FC00351037 /* ToDoModel.swift in Sources */,
+				D00E78981EF7AA2200351037 /* CommentTableViewModel.swift in Sources */,
+				D00E78471EF78D9600351037 /* AppDelegate.swift in Sources */,
+				D00E788C1EF7A08000351037 /* PostTableViewModel.swift in Sources */,
+				D00E78941EF7A96C00351037 /* CommentModel.swift in Sources */,
+				D00E78AC1EF8177900351037 /* DetailViewModel.swift in Sources */,
+				D00E78A01EF7B59700351037 /* ToDoTableViewModel.swift in Sources */,
+				D00E788A1EF79F8D00351037 /* PostCellViewModel.swift in Sources */,
+				D00E78921EF7A95000351037 /* CommentTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E78551EF78D9600351037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E785E1EF78D9600351037 /* ReactiveJSONPlaceholderTests.swift in Sources */,
+				D00E78B81EF839E500351037 /* ModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00E78601EF78D9600351037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00E78691EF78D9600351037 /* ReactiveJSONPlaceholderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D00E785B1EF78D9600351037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00E78421EF78D9600351037 /* ReactiveJSONPlaceholder */;
+			targetProxy = D00E785A1EF78D9600351037 /* PBXContainerItemProxy */;
+		};
+		D00E78661EF78D9600351037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D00E78421EF78D9600351037 /* ReactiveJSONPlaceholder */;
+			targetProxy = D00E78651EF78D9600351037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D00E784C1EF78D9600351037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00E784D1EF78D9600351037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D00E78511EF78D9600351037 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00E78521EF78D9600351037 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00E786B1EF78D9600351037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D00E786C1EF78D9600351037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00E786E1EF78D9600351037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveJSONPlaceholder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinhur.ReactiveJSONPlaceholder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D00E786F1EF78D9600351037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveJSONPlaceholder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinhur.ReactiveJSONPlaceholder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D00E78711EF78D9600351037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveJSONPlaceholderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinhur.ReactiveJSONPlaceholderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveJSONPlaceholder.app/ReactiveJSONPlaceholder";
+			};
+			name = Debug;
+		};
+		D00E78721EF78D9600351037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ReactiveJSONPlaceholderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinhur.ReactiveJSONPlaceholderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveJSONPlaceholder.app/ReactiveJSONPlaceholder";
+			};
+			name = Release;
+		};
+		D00E78741EF78D9600351037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReactiveJSONPlaceholderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinhur.ReactiveJSONPlaceholderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReactiveJSONPlaceholder;
+			};
+			name = Debug;
+		};
+		D00E78751EF78D9600351037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ReactiveJSONPlaceholderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinhur.ReactiveJSONPlaceholderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReactiveJSONPlaceholder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00E783E1EF78D9600351037 /* Build configuration list for PBXProject "ReactiveJSONPlaceholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00E786B1EF78D9600351037 /* Debug */,
+				D00E786C1EF78D9600351037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00E786D1EF78D9600351037 /* Build configuration list for PBXNativeTarget "ReactiveJSONPlaceholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00E786E1EF78D9600351037 /* Debug */,
+				D00E786F1EF78D9600351037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00E78701EF78D9600351037 /* Build configuration list for PBXNativeTarget "ReactiveJSONPlaceholderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00E78711EF78D9600351037 /* Debug */,
+				D00E78721EF78D9600351037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00E78731EF78D9600351037 /* Build configuration list for PBXNativeTarget "ReactiveJSONPlaceholderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00E78741EF78D9600351037 /* Debug */,
+				D00E78751EF78D9600351037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00E783B1EF78D9600351037 /* Project object */;
+}

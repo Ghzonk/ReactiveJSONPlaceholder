@@ -1,0 +1,2 @@
+github "ReactiveCocoa/ReactiveCocoa" ~> 5.0
+github "operationstrategy/ReactiveJSON"
